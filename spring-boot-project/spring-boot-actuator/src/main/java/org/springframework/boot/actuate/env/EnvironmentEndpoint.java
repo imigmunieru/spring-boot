@@ -173,6 +173,7 @@ public class EnvironmentEndpoint {
 		if (this.environment instanceof ConfigurableEnvironment configurableEnvironment) {
 			return configurableEnvironment.getPropertySources();
 		}
+		// this means nothing
 		return new StandardEnvironment().getPropertySources();
 	}
 
