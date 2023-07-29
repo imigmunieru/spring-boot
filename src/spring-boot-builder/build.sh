@@ -9,6 +9,8 @@ docker pull paketobuildpacks/run:tiny-cnb
 docker tag paketobuildpacks/run:tiny-cnb projects.registry.vmware.com/springboot/run:tiny-cnb
 docker push projects.registry.vmware.com/springboot/run:tiny-cnb
 
+
+# this line of code is really great!
 cd builder
 pack builder create projects.registry.vmware.com/springboot/spring-boot-cnb-builder:0.0.2 --config builder.toml
 docker push projects.registry.vmware.com/springboot/spring-boot-cnb-builder:0.0.2
