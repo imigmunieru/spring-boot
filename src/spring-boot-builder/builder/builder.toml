@@ -9,7 +9,7 @@ uri = "../buildpacks/test-info"
 [[order.group]]
 id = "spring-boot/test-info"
 version = "0.0.2"
-
+# ???
 # Stack that will be used by the builder
 [stack]
 id = "io.paketo.stacks.tiny"
